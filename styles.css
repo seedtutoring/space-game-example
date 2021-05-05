@@ -1,0 +1,26 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(29, 35, 51);
+    color: white;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    position: relative;
+    width: 60%;
+}
+
+.blocker {
+    position: absolute;
+    width: 150px;
+    height: 47px;
+    background-color: rgb(246, 246, 246);
+    top: 0px;
+    right: 0px;
+}
